@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Annushka</title>
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js');
+      }
+    </script>
+  </body>
+</html>
