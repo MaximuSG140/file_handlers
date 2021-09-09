@@ -1,7 +1,6 @@
-
 const urlsToCache = [
-  'index.html',
   'icon.png',
+  'index.html',
 ];
 
 self.addEventListener('install', e => {
@@ -12,14 +11,12 @@ self.addEventListener('install', e => {
   );
 
   console.log('meow');
-
   yandex.messenger.isPanelEnabled((is_enabled) => {
     chrome.runtime.lastError ? console.log(chrome.runtime.lastError.message) :
                                console.log(is_enabled);
   });
 });
 
-// A no-op fetch handler.
 self.addEventListener('fetch', e => {
   e.respondWith(
       caches.match(e.request).then((response) => {
