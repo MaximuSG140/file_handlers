@@ -26,4 +26,10 @@ self.addEventListener('fetch', e => {
         return fetch(e.request);
       }),
   );
+
+  console.log('meow');
+  yandex.messenger.isPanelEnabled((is_enabled) => {
+    chrome.runtime.lastError ? console.log(chrome.runtime.lastError.message) :
+                               console.log(is_enabled);
+  });
 });
