@@ -10,5 +10,6 @@
   ],
   "start_url": "/annushka/index.html",
   "scope": "/annushka/",
-  "display": "standalone"
+  "display": "standalone",
+  "yandex.open_mode": "newwindow"
 }
