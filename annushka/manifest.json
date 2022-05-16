@@ -11,5 +11,5 @@
   "start_url": "/annushka/index.html",
   "scope": "/annushka/",
   "display": "standalone",
-  "yandex.open_mode": "newwindow"
+  "yandex.open_mode": "newtab"
 }
