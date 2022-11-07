@@ -8,8 +8,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/annushka/index.html",
-  "scope": "/annushka/",
+  "start_url": "/file_handlers/annushka/index.html",
+  "scope": "/file_handlers/annushka/",
   "display": "standalone",
   "yandex.open_mode": "newwindow"
 }
