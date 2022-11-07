@@ -11,5 +11,20 @@
   "start_url": "/file_handlers/annushka/index.html",
   "scope": "/file_handlers/annushka/",
   "display": "standalone",
-  "yandex.open_mode": "newwindow"
+  "yandex.open_mode": "newwindow",
+  "manifest": [
+    {
+      "action": "/file_handlers/annushka/index.html",
+      "name": "doc",
+      "accept": {
+        "application/msword": ".doc"
+      },
+      "icons": [
+        {
+          "src": "icon.png",
+          "sizes": "256x256"
+        }
+      ]
+    }
+  ]
 }
